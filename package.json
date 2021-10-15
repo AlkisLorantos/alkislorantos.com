@@ -1,20 +1,63 @@
 {
-  "name": "web",
+  "name": "@alkislorantos.com/web",
+  "description": "My personal blog and website",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Alkis Lorantos",
+    "email": "me@alkislorantos.com",
+    "url": "https://alkislorantos.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlkisLorantos/alkislorantos.com"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@headlessui/react": "^1.2.0",
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@radix-ui/react-hover-card": "0.0.3",
+    "@sendgrid/mail": "^7.4.2",
+    "@tailwindcss/typography": "^0.4.0",
+    "clsx": "^1.1.1",
+    "comma-number": "^2.0.1",
+    "date-fns": "^2.19.0",
+    "firebase-admin": "^9.5.0",
+    "gray-matter": "^4.0.2",
+    "mdx-prism": "^0.3.3",
+    "next": "10.0.5",
+    "next-mdx-remote": "^2.1.3",
+    "next-themes": "0.0.12",
+    "qss": "^2.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-rough-notation": "^1.0.1",
+    "react-toastify": "^7.0.3",
+    "react-tweet-embed": "^1.2.2",
+    "reading-time": "^1.3.0",
+    "remark": "^13.0.0",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-code-titles": "^0.1.1",
+    "remark-slug": "^6.0.0",
+    "swr": "^0.5.3"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "autoprefixer": "^10.2.5",
+    "globby": "11.0.2",
+    "image-size": "^0.9.3",
+    "postcss": "^8.2.8",
+    "prettier": "2.2.1",
+    "rehype": "^11.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-stringify": "^9.0.1",
+    "tailwindcss": "^2.0.3",
+    "unified": "^9.2.0",
+    "unist-util-visit": "^2.0.3"
   }
 }
