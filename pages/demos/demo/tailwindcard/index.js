@@ -6,7 +6,7 @@ export default function CardBasic() {
     <div>
       <div className="bg-gray-200 h-screen">
         <div className="px-8">
-          <Link href="https://alkislorantos.dev/snippets/tailwind-card">
+          <Link href="https://alkislorantos.com/snippets/tailwind-card">
             <a>
               <div className="mx-auto lg:w-3/5 lg:flex lg:flex-row lg:h-auto ">
                 <img
@@ -27,7 +27,7 @@ export default function CardBasic() {
                     <div className="flex items-center">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src="https://alkislorantos.dev/avatar.jpg"
+                        src="https://alkislorantos.com/avatar.jpg"
                         alt="avatar"
                       />
                       <div className="ml-4">

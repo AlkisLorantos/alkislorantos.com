@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://alkislorantos.dev/sitemap.xml
+Sitemap: https://alkislorantos.com/sitemap.xml

@@ -18,7 +18,7 @@ export default function Container(props) {
   const meta = {
     title: "Alkis Lorantos – Full-Stack Developer",
     description: `Full-Stack developer, JavaScript enthusiast, Freelancer and a Learner.`,
-    image: "https://alkislorantos.dev/static/images/banner.png",
+    image: "https://alkislorantos.com/static/images/banner.png",
     type: "website",
     ...customMeta,
   };
@@ -31,7 +31,7 @@ export default function Container(props) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://alkislorantos.dev${router.asPath}`}
+          content={`https://alkislorantos.com${router.asPath}`}
         />
         <link rel="canonical" href={`https://alkilorantos.dev${router.asPath}`} />
         <meta property="og:type" content={meta.type} />

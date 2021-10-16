@@ -64,7 +64,7 @@ export default function Home() {
                 className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none"
               >
                 <a className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none dark:text-gray-300 dark:hover:text-gray-600">
-                  <LinkPreview url="https://alkislorantos.dev/blog">
+                  <LinkPreview url="https://alkislorantos.com/blog">
                     Checkout my blog
                   </LinkPreview>
                 </a>
