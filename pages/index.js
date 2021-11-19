@@ -43,7 +43,7 @@ export default function Home() {
             <RainbowHighlight color={colors[1]}>
               <span className="dark:text-black">Software Engineer.</span>
             </RainbowHighlight>{" "}
-            You've discovered my piece on the internet –&nbsp;
+            Yfdfgdsfgiskhgvjfxfsj–&nbsp;
             <RoughNotation
               type="underline"
               multiline={true}
