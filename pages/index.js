@@ -74,26 +74,6 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Most Popular
         </h3>
-        <BlogPost
-          title="Top 5 courses and resources to learn Next JS in 2021"
-          summary="Get the top 5 resources to learn Next JS in 2021 and take your React skills to the next level."
-          slug="top-5-nextjs-resources"
-        />
-        <BlogPost
-          title="How I built a blogging platform like Medium with Next.js"
-          summary="Insights and structure of devmedium, A blogging platform built with Next.js with features like custom usernames, create blogs and various optimization techniques"
-          slug="blogging-platform-nextjs"
-        />
-        {/* <BlogPost
-          title="How to design a minimal and beautiful website which actually converts"
-          summary="Examining the tips and tricks used to make a website design a notch above the rest."
-          slug="css-with-react"
-        />
-        <BlogPost
-          title="Using real world projects to build better learning habits"
-          summary="In this guide, you will learn how to take an idea and convert it into a real world application, while learning on the go."
-          slug="css-with-react"
-        /> */}
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Projects
         </h3>
