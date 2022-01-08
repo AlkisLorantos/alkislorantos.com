@@ -44,7 +44,7 @@ export default function Home() {
   }, []);
   return (
     <Container
-      title="Alkis Lorantos - Developer, Writer, Creator"
+      title="Alkis Lorantos - Full Stack Developer and freelancer"
       description="Full-Stack developer, writer and freelancer"
       image="/avatar.jpg"
     >
