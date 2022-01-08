@@ -2,7 +2,7 @@ import Link from "next/link";
 import useSWR from "swr";
 import format from "comma-number";
 
-import fetcher from "@/lib/fetcher";
+import fetcher from "lib/fetcher";
 
 const BlogPost = ({ title, summary, slug }) => {
   const { data } = useSWR(`/api/views/${slug}`, fetcher);

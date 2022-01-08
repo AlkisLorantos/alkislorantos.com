@@ -5,9 +5,9 @@ import format from "comma-number";
 // import { trackGoal } from "fathom-client";
 
 // import fetcher from "@/lib/fetcher";
-import SuccessMessage from "@/components/SuccessMessage";
-import ErrorMessage from "@/components/ErrorMessage";
-import LoadingSpinner from "@/components/LoadingSpinner";
+import SuccessMessage from "components/SuccessMessage";
+import ErrorMessage from "components/ErrorMessage";
+import LoadingSpinner from "components/LoadingSpinner";
 
 export default function Contact() {
   const Divider = () => {
@@ -54,7 +54,7 @@ export default function Contact() {
   return (
     <div className="border border-blue-200 rounded p-6 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <h5 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
-        Want to hire me as a freelancer? Let's discuss.
+        Want to collab or hire me as Freelancer ? 
       </h5>
       <p className="my-1 text-gray-800 dark:text-gray-200">
         Drop your message and let's discuss about your project.

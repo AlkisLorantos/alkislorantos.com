@@ -1,9 +1,9 @@
 import useSWR from "swr";
 import format from "comma-number";
 
-import fetcher from "@/lib/fetcher";
+import fetcher from "lib/fetcher";
 import { useEffect } from "react";
-import TwitterCard from "@/components/metrics/TwitterCard";
+import TwitterCard from "components/metrics/TwitterCard";
 
 export default function TwitterStatistics({ type }) {
   const { data } = useSWR("/api/twitter-user", fetcher);

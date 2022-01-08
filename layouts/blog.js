@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { parseISO, format } from "date-fns";
 
-import Container from "@/components/Container";
-import ViewCounter from "@/components/ViewCounter";
-import Contact from "@/components/Contact";
+import Container from "components/Container";
+import ViewCounter from "components/ViewCounter";
+import Contact from "components/Contact";
 import Link from "next/link";
 
 export default function BlogLayout({ children, frontMatter }) {

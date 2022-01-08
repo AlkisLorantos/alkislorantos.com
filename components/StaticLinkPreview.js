@@ -1,4 +1,4 @@
-import { FOCUS_VISIBLE_OUTLINE, GRADIENT_LINK } from "@/lib/constants";
+import { FOCUS_VISIBLE_OUTLINE, GRADIENT_LINK } from "lib/constants";
 import { Portal, Transition } from "@headlessui/react";
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
 import cx from "clsx";

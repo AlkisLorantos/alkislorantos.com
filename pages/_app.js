@@ -3,9 +3,9 @@ import { MDXProvider } from "@mdx-js/react";
 import { ThemeProvider } from "next-themes";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import * as gtag from "@/lib/gtag";
+import * as gtag from "lib/gtag";
 
-import MDXComponents from "@/components/MDXComponents";
+import MDXComponents from "components/MDXComponents";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();

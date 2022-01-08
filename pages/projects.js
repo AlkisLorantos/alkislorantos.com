@@ -1,15 +1,14 @@
 import React from "react";
-import Container from "@/components/Container";
+import Container from "components/Container";
 import Link from "next/link";
-import ProjectCard from "@/components/ProjectCard";
-import Contact from "@/components/Contact";
+import ProjectCard from "components/ProjectCard";
+import Contact from "components/Contact";
 
 export default function projects() {
   return (
     <Container
       title="Projects – Alkis Lorantos"
-      description="Projects that I've built from scratch, upcoming projects, learned from courses and projects that I'm proud of."
-      image="/avatar.jpg"
+      description="Projects that I've built and upcoming projects."
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
@@ -62,7 +61,7 @@ export default function projects() {
         />
         <ProjectCard
           title="More projects coming soon.."
-          description="I get ideas all day 🙄, All of them are updated here as soon as I start working on them."
+          description="As soon as I start working on a project it will be updated here. In the meantime check out my other projects"
           href="#"
           icon="more"
         />

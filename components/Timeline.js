@@ -54,7 +54,7 @@ export default function Timeline() {
       <Year>2021</Year>
       <ul>
       <Step title="Deployed my Personal Website">
-          In 2021 I created and succesfully desplyed my personal website made with Next JS
+          In 2021 I created and succesfully deployed my personal website made with Next JS and TailwindCSS.
         </Step>
         <Step title="Started working on my Startup 💸">
           In the begining odf the year I starrted working on my startup idea which I still have not revealed online.
@@ -62,12 +62,11 @@ export default function Timeline() {
       </ul>
       <Year>2020</Year>
       <ul>
-      <Step title="Learned Flutter Development">
-          Since I wanted to create a mobile app for IOS and Android, 
-          I learned Flutter and Dart development and created my first Flutter app
+      <Step title="Started Freelancing">
+          At this time I was really eager to startmaking money with code, so i created my profile on fiverr and started Freelancing
         </Step>
-        <Step title="First Mobile App 📱">
-          Learned IOS mobile app development with swift and Xcode and created my first mobile app.
+        <Step title="Published my first app">
+          It was the first time I had pursued a project to its end and after much work I succesfully published it on the AppStore
         </Step>
       </ul>
       <Year>2019</Year>

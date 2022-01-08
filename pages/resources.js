@@ -1,5 +1,5 @@
-import Container from "@/components/Container";
-import ResourcesCard from "@/components/ResourcesCard";
+import Container from "components/Container";
+import ResourcesCard from "components/ResourcesCard";
 
 export default function Snippets({ snippets }) {
   // TODO: Make sections for each type, ex: Javascript, HTML CSS etc
