@@ -48,11 +48,11 @@ export default function Home() {
           Projects
         </h3>
         <ProjectCard
-          title="Covid Rescue"
-          description="Get Real-time verified leads on Oxygen, Beds, Remdesivir and more with location and resource filtering"
-          href="https://covidrescue.co.in/"
-          icon="covidrescue"
-          tags={["Open Source", "Next.js", "Twitter"]}
+          title="Project Title"
+          description="✍🏻 Project Description gjkhjkadfshvkjfhgjkhdfjkghfkjghfjhkfjshv;khfjkhfighuighfjghfjkhgjkfhgjkfhgjkfhgh"
+          href=""
+          icon="gba"
+          tags={["tags", "tags", "tags"]}
         />
         <Link href="/projects">
           <a
