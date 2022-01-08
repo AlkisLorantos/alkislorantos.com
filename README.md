@@ -28,7 +28,7 @@ The application is built with **Next.js/React/MDX**
 
 ```bash
 
-git clone https://github.com/alkislorantos.com700/portfolio-website.git
+git clone https://github.com/alkislorantos/portfolio-website.git
 
 cd portfolio-website
 
@@ -42,7 +42,7 @@ or use NPM
 
 ```bash
 
-git clone https://github.com/alkislorantos.com700/portfolio-website.git
+git clone https://github.com/alkislorantos/portfolio-website.git
 
 cd portfolio-website
 

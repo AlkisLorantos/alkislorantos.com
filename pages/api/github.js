@@ -1,7 +1,7 @@
 export default async (_, res) => {
-  const userResponse = await fetch("https://api.github.com/users/alkislorantos.com700");
+  const userResponse = await fetch("https://api.github.com/users/alkislorantos");
   const userReposResponse = await fetch(
-    "https://api.github.com/users/alkislorantos.com700/repos?per_page=100"
+    "https://api.github.com/users/alkislorantos/repos?per_page=100"
   );
 
   const user = await userResponse.json();

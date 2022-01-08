@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alkislorantos.com700/personal-portfolio.git"
+    "url": ""
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.1",

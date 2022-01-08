@@ -37,44 +37,22 @@ export default function Home() {
           </h1>
 
           <h2 className="text-gray-600 dark:text-gray-400 mb-16 mt-4 font-light tracking-wide leading-loose">
-            I'm a 16 year old Software Developer. 
-            while you're here. <br /> Some of my favoritre technologies consist of Python, Typescrip{" "}
-            <StaticLinkPreview url="https://brobible.com/wp-content/uploads/2017/08/thats-what-she-said.jpg?quality=90&w=650">
-              memes.
-            </StaticLinkPreview>
+            I'm a 16 year old Software Developer, specializig in Full Stack mobile and web development  
+            <br/>
           </h2>
         </RoughNotationGroup>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
-          Most Popular
+          Most Popular Articles 
         </h3>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Projects
         </h3>
-        <ProjectCard
-          title="Tailwind Master Kit"
-          description="Beautiful, Handcrafted, ready-to-use components and templates for your next Tailwind web app project."
-          href="https://tailwindmasterkit.com/"
-          icon="tailwindmasterkit"
-          tags={["Tailwind", "Next.js", "Freemium"]}
-        />
         <ProjectCard
           title="Covid Rescue"
           description="Get Real-time verified leads on Oxygen, Beds, Remdesivir and more with location and resource filtering"
           href="https://covidrescue.co.in/"
           icon="covidrescue"
           tags={["Open Source", "Next.js", "Twitter"]}
-        />
-        <ProjectCard
-          title="PlaceholderTech"
-          description="We build modern, blazing-fast web applications which helps your business grow and increase sales."
-          href="https://placeholdertech.in/"
-          icon="placeholdertech"
-        />
-        <ProjectCard
-          title="Feedmeback"
-          description="The easiest way to add comments or reviews to your static site. Built as part of React 2025."
-          href="https://feedmeback-beta.vercel.app/"
-          icon="fastfeedback"
         />
         <Link href="/projects">
           <a
