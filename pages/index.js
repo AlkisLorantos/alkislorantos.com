@@ -33,39 +33,12 @@ export default function Home() {
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <RoughNotationGroup show={isFontReady}>
           <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-            Hey, I am ALkis Lorantos
+            Hey, I am ALkis Lorantos 👋
           </h1>
 
           <h2 className="text-gray-600 dark:text-gray-400 mb-16 mt-4 font-light tracking-wide leading-loose">
-            I’m a 16 year old Software Developer. 
-
-            as a{" "}
-            <RainbowHighlight color={colors[1]}>
-              <span className="dark:text-black">Software Engineer.</span>
-            </RainbowHighlight>{" "}
-            Yfdfgdsfgiskhgvjfxfsj–&nbsp;
-            <RoughNotation
-              type="underline"
-              multiline={true}
-              animationDuration={1500}
-              animationDelay={1700}
-              strokeWidth={2}
-              iterations={3}
-              padding={5}
-              color={colors[3]}
-            >
-              <Link
-                href="/blog"
-                className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none"
-              >
-                <a className="font-medium text-gray-700 transition-colors hover:text-gray-900 focus:text-gray-900 focus:outline-none dark:text-gray-300 dark:hover:text-gray-600">
-                  <LinkPreview url="https://alkislorantos.com/blog">
-                    Checkout my blog
-                  </LinkPreview>
-                </a>
-              </Link>
-            </RoughNotation>{" "}
-            while you're here. <br />I write about technology, learning and{" "}
+            I'm a 16 year old Software Developer. 
+            while you're here. <br /> Some of my favoritre technologies consist of Python, Typescrip{" "}
             <StaticLinkPreview url="https://brobible.com/wp-content/uploads/2017/08/thats-what-she-said.jpg?quality=90&w=650">
               memes.
             </StaticLinkPreview>
@@ -129,18 +102,6 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Upcoming Projects
         </h3>
-        <ProjectCard
-          title="Algochurn"
-          description="Your last moment friend before a Technical Interview round. Practice the most popular Data Structures & Algorithms"
-          href="#"
-          icon="algochurn"
-        />
-        <ProjectCard
-          title="VSCode Resume"
-          description="A VSCode themed resume for all the web developers out there. A UI which looks exactly like a React file-system based VSCode window with create and update operations."
-          href="#"
-          icon="vscode"
-        />
         <ProjectCard
           title="More projects coming soon.."
           description="I get ideas all day 🙄, All of them are updated here as soon as I start working on them."

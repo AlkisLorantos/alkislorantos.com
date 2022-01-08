@@ -39,7 +39,7 @@ export default function Blog({ posts }) {
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-          Blog
+          📝 Blog
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {`I've been programming for almost 6 years now. Throughout this year, I've worked with various technologies. I'm here to share just that.
