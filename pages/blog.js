@@ -10,16 +10,6 @@ export async function getStaticProps() {
   return { props: { posts } };
 }
 
-// Ghost CMS Way
-// async function getPosts() {
-//   const res = await fetch(
-//     `${process.env.BLOG_URL}/ghost/api/v3/content/posts/?key=${process.env.CONTENT_API_KEY}&fields=title,slug,custom_excerpt,reading_time,published_at`
-//   ).then((res) => res.json());
-
-//   const frontMatter = res.posts;
-
-//   return frontMatter;
-// }
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState("");
